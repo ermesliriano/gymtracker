@@ -10,14 +10,24 @@ class SessionActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_session)
 
-        val spinner_ex: Spinner = findViewById(R.id.exercises)
+        val spinnerEx: Spinner = findViewById(R.id.exercises)
         ArrayAdapter.createFromResource(
             this,
             R.array.exercises_list,
             android.R.layout.simple_spinner_item
         ).also { adapter ->
             adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item)
-            spinner_ex.adapter = adapter
+            spinnerEx.adapter = adapter
+        }
+
+        val spinnerKg: Spinner = findViewById(R.id.weights)
+        ArrayAdapter.createFromResource(
+            this,
+            R.array.weight_list,
+            android.R.layout.simple_spinner_item
+        ).also { adapter ->
+            adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item)
+            spinnerKg.adapter = adapter
         }
 
         val repsList = ArrayList<Int>()
@@ -25,9 +35,10 @@ class SessionActivity : AppCompatActivity() {
             repsList.add(i)
         }
 
-//        val spinner_reps: Spinner = findViewById(R.id.reps)
-//        val adapter = ArrayAdapter(this, android.R.layo)
-
+        val spinnerReps: Spinner = findViewById(R.id.reps)
+        val adapter = ArrayAdapter(this, android.R.layout.simple_spinner_item, repsList)
+        adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item)
+        spinnerReps.adapter = adapter
 
     }
 }
