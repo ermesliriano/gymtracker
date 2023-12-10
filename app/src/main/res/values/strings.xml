@@ -1,0 +1,16 @@
+<resources>
+
+    <string name="app_name">Gym Tracker</string>
+
+    <string name="gym_session">Gym Session</string>
+    <string name="gym_data">Gym Workout Data</string>
+    <string name="gym_profile">My Gym Profile</string>
+
+    <string name="btn_session">Start New Gym Session</string>
+    <string name="btn_show">Show Workout Sessions Data</string>
+    <string name="btn_prof">My Gym Profile &amp; Muscles Stats</string>
+
+    <string name="btn_reg">Register exercise series</string>
+    <string name="tv_exercise">Exercise type</string>
+
+</resources>

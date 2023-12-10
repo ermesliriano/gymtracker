@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Gym Tracker</string>
+    <string name="gym_session">Sesión de Gym</string>
+    <string name="gym_data">Historial de ejercicios</string>
+    <string name="gym_profile">Mi Perfil Fitness</string>
+    <string name="btn_session">Iniciar Nueva Sesión de Gimnasio</string>
+    <string name="btn_show">Mostrar datos de mis sesiones de ejercicio</string>
+    <string name="btn_prof">Mi perfil fitness y mis músculos</string>
+    <string name="btn_reg">Registrar nueva serie</string>
+    <string name="tv_exercise">Tipo de ejercicio:</string>
+</resources>

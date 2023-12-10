@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="exercises_list">
+        <item>Estirar hacia abajo</item>
+        <item>Press de pecho</item>
+        <item>Extensora de hombros</item>
+        <item>Deltoides trasero</item>
+        <item>Peso libre biceps</item>
+        <item>Descenso asistido</item>
+        <item>Extensión de pierna</item>
+        <item>Contracción de pierna</item>
+        <item>Press de pierna sentado</item>
+        <item>Polea doble triceps</item>
+        <item>Abdominales</item>
+        <item>Cinta</item>
+        <item>Escalera</item>
+    </string-array>
+
+</resources>
