@@ -11,6 +11,8 @@
     <string name="btn_prof">My Gym Profile &amp; Muscles Stats</string>
 
     <string name="btn_reg">Register exercise series</string>
-    <string name="tv_exercise">Exercise type</string>
+    <string name="tv_exercise">Exercise type:</string>
+    <string name="tv_weight">Select weight:</string>
+    <string name="tv_reps">¿How many reps did you do?</string>
 
 </resources>

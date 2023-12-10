@@ -16,4 +16,36 @@
         <item>Escalera</item>
     </string-array>
 
+    <string-array name="weight_list">
+        <item>5,0 kg</item>
+        <item>7,5 kg</item>
+        <item>10,0 kg</item>
+        <item>12,5 kg</item>
+        <item>15,0 kg</item>
+        <item>17,5 kg</item>
+        <item>20,0 kg</item>
+        <item>22,5 kg</item>
+        <item>25,0 kg</item>
+        <item>27,5 kg</item>
+        <item>30,0 kg</item>
+        <item>32,5 kg</item>
+        <item>35,0 kg</item>
+        <item>37,5 kg</item>
+        <item>40,0 kg</item>
+        <item>42,5 kg</item>
+        <item>45,0 kg</item>
+        <item>47,5 kg</item>
+        <item>50,0 kg</item>
+        <item>52,5 kg</item>
+        <item>55,0 kg</item>
+        <item>57,5 kg</item>
+        <item>60,0 kg</item>
+        <item>62,5 kg</item>
+        <item>65,0 kg</item>
+        <item>67,5 kg</item>
+        <item>70,0 kg</item>
+        <item>72,5 kg</item>
+        <item>75,0 kg</item>
+    </string-array>
+
 </resources>

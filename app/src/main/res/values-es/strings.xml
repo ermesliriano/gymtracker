@@ -9,4 +9,6 @@
     <string name="btn_prof">Mi perfil fitness y mis músculos</string>
     <string name="btn_reg">Registrar nueva serie</string>
     <string name="tv_exercise">Tipo de ejercicio:</string>
+    <string name="tv_weight">Elige el peso:</string>
+    <string name="tv_reps">¿Cuántas repeticiones hiciste?</string>
 </resources>
