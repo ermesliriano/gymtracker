@@ -30,12 +30,10 @@
     <View
         android:id="@+id/divider1"
         android:layout_width="match_parent"
-        android:layout_height="1dp"
+        android:layout_height="3dp"
         android:background="#000000"
-
         app:layout_constraintBottom_toTopOf="@id/tv_weight"
-        app:layout_constraintTop_toBottomOf="@id/exercises"
-        />
+        app:layout_constraintTop_toBottomOf="@id/exercises" />
 
     <TextView
         android:id="@+id/tv_weight"
@@ -74,20 +72,62 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textSize="24sp"
-        app:layout_constraintBottom_toTopOf="@id/divider2"
+        app:layout_constraintBottom_toTopOf="@id/tv_notes"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/tv_reps" />
 
+    <TextView
+        android:id="@+id/tv_notes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tv_notes"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@id/et_notes"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/reps" />
+
+    <EditText
+        android:id="@+id/et_notes"
+        android:layout_width="200sp"
+        android:layout_height="100sp"
+        android:autofillHints=""
+        android:ems="10"
+        android:gravity="start"
+        android:hint="@string/et_notes"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toTopOf="@id/btn_reg_ser"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tv_notes" />
+
+    <Button
+        android:id="@+id/btn_reg_ser"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_reg"
+        app:layout_constraintBottom_toTopOf="@id/divider2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/et_notes"/>
+
     <View
         android:id="@+id/divider2"
         android:layout_width="match_parent"
-        android:layout_height="1dp"
+        android:layout_height="3dp"
         android:background="#000000"
+        app:layout_constraintBottom_toBottomOf="@id/btn_reg_ses"
+        app:layout_constraintTop_toBottomOf="@id/btn_reg_ser" />
 
+    <Button
+        android:id="@+id/btn_reg_ses"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_reg_ses"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/tv_reps"
-        />
-
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/divider2"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

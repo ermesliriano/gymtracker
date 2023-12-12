@@ -11,4 +11,7 @@
     <string name="tv_exercise">Tipo de ejercicio:</string>
     <string name="tv_weight">Elige el peso:</string>
     <string name="tv_reps">¿Cuántas repeticiones hiciste?</string>
+    <string name="btn_reg_ses">Registrar toda la sesión</string>
+    <string name="tv_notes">Anotaciones:</string>
+    <string name="et_notes">Escribe comentarios sobre la serie realizada</string>
 </resources>
