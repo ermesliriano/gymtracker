@@ -4,9 +4,15 @@ import android.content.ContentValues
 import android.content.Context
 import android.database.sqlite.SQLiteDatabase
 import android.database.sqlite.SQLiteOpenHelper
+import com.hadash.gymtracker.activities.SessionActivity
 
 class DBHelper(context: Context) : SQLiteOpenHelper(context, DATABASE_NAME, null, DATABASE_VERSION) {
     companion object {
+        fun getInstance(context: Context) {
+
+            }
+        }
+
         private const val DATABASE_NAME = "GymTracker.db"
         private const val DATABASE_VERSION = 1
     }

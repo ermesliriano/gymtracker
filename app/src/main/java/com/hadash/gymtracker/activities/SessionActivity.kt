@@ -3,7 +3,11 @@ package com.hadash.gymtracker.activities
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.ArrayAdapter
+import android.widget.EditText
 import android.widget.Spinner
+import com.hadash.gymtracker.databases.DBHelper
+import com.hadash.gymtracker.databases.GymSeries
+import java.util.Date
 
 class SessionActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -40,5 +44,12 @@ class SessionActivity : AppCompatActivity() {
         adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item)
         spinnerReps.adapter = adapter
 
+        val etNotes: EditText = findViewById(R.id.et_notes)
+
     }
+
+    //fun regSerie() {
+    //    DBHelper.getInstance(this).insertGymSeries(GymSeries(today.day));
+    //}
+
 }
